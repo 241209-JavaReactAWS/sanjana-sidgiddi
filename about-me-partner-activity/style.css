@@ -1,0 +1,16 @@
+/* Styling for the html file using CSS */
+/* Background color for the page, and custom font for text */
+.div-class {
+    background-color:darkseagreen;
+    font-family:'Courier New', Courier, monospace;
+    padding: 7px;
+    margin: 2px;
+}
+/* Border and Hover effect for truth & lie section */
+.truth-lie-para:hover + .truth-show{
+    border: 4px cadetblue solid;
+    display:block;
+}
+.truth-show{
+    display:none;
+}
